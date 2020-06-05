@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRegister"
+    android:background="@drawable/bgregister"
+    android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="218dp"
+                android:layout_height="74dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="Sign up"
+                android:textColor="#FFFFFF"
+                android:textSize="35sp"
+                app:fontFamily="@font/alfa_slab_one" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:paddingTop="10dp"
+                android:text="Name"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/alfa_slab_one" />
+
+
+            <EditText
+                android:id="@+id/etregistername"
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bginput"
+                android:fontFamily="sans-serif"
+                android:hint="Name"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp" />
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Email"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/alfa_slab_one"
+                android:paddingTop="10dp"/>
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bginput"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:hint="Email"
+                android:id="@+id/etregisteremail"/>
+
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Mobile"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/alfa_slab_one"
+                android:paddingTop="10dp"/>
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bginput"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:hint="Mobile"
+                android:id="@+id/etregistermobile"
+                android:inputType="phone"/>
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Location"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/alfa_slab_one"
+                android:paddingTop="10dp"/>
+
+            <AutoCompleteTextView
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bginput"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textSize="18sp"
+                android:hint="Select a nearby place"
+                android:completionThreshold="1"
+                android:completionHint="Select a nearby place"
+                android:id="@+id/etautocomp"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                />
+
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Password"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/alfa_slab_one"
+                android:paddingTop="10dp"/>
+
+
+
+            <EditText
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bginput"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:id="@+id/etregisterpassword"/>
+
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Select Blood Group"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/alfa_slab_one"
+                android:paddingTop="10dp"/>
+
+
+            <Spinner
+                android:layout_width="350dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bginput"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:id="@+id/spinnerbgroup"
+                android:popupBackground="@drawable/bgregister"/>
+
+
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Select Gender"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                app:fontFamily="@font/alfa_slab_one"
+                android:paddingTop="10dp"/>
+
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/radioGroup">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioMale"
+                    android:text="Male"
+                    android:textSize="15sp"
+                    android:textColor="#FFFFFF"
+                    android:button="@null"
+                    android:paddingRight="25dp"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:paddingLeft="25dp"
+                    app:fontFamily="@font/fredoka_one"
+                    android:background="@drawable/radio_bg"
+                    android:onClick="radioButtonClick"
+                    android:layout_marginRight="35dp"
+                    android:checked="true"/>
+
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/radioFemale"
+                    android:text="Female"
+                    android:button="@null"
+                    android:background="@drawable/radio_bg"
+                    android:padding="15dp"
+                    android:textSize="15sp"
+                    app:fontFamily="@font/fredoka_one"
+                    android:textColor="#FFFFFF"
+                    android:onClick="radioButtonClick"/>
+
+
+            </RadioGroup>
+
+
+            <CheckBox
+                android:layout_width="350dp"
+                android:layout_height="60dp"
+                android:fontFamily="@font/fredoka_one"
+                android:text="I authorize this app and state that I am above 18 years old. I agree to display my details,so that Nearby could contact me."
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:id="@+id/checkboxage"/>
+
+
+            <Button
+                android:id="@+id/btnsignup"
+                android:layout_width="133dp"
+                android:layout_height="51dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="35dp"
+                android:background="@drawable/bgbutton"
+                android:fontFamily="@font/fredoka_one"
+                android:onClick="signUpClick"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+
+
+
+
+        </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>

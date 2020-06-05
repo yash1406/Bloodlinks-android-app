@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Eligibility Requirements:-"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="195dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="In order to donate you must meet the requirements listed below. Please note that this is not a complete list; other eligibility factors will apply.\n  1.Be in good health and feeling well \n 2.Be at least 18 years old \n 3.Weigh at least 110 pounds\n 4.Are not pregnant \n 5.Possess a valid government-issued photo ID (Example: Driver’s License, Military ID, etc.)"
+            android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="@font/fredoka_one"
+        android:text="Do NOT donate if any of the following apply to you:"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="497dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="1.Have been diagnosed with HIV/AIDS, Hepatitis B, or Hepatitis C\n 2. Have ever used needles to take drugs, steroids, or anything not prescribed by your doctor \n 3.Are a male who has had sexual contact with another male, even once, since 1977 \n 4.Have ever taken money, drugs, or any other form of payment for sex since 1977\n 5.Have had sexual contact in the past 12 months with anyone described above\n 6.Have had syphilis or gonorrhea in the past 12 months\n 7.In the past 12 months have been in juvenile detention, lockup, jail, or prison for more than 72 hours\n 8.Have lived in, or visited the United Kingdom, which includes England, Northern Ireland, Scotland, Wales, the Isle of Mann, or Channel Islands from 1980-1996 for a total of 3 months or more\n 9.Have spent 5 years or more (total) in Europe since 1980\n 10.Have visited a malarial-endemic country within the last year"
+            android:textSize="13sp" />
+</LinearLayout>
+</androidx.core.widget.NestedScrollView>

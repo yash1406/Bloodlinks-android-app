@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.diegodobelo.expandingview.ExpandingItem xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:item_layout="@layout/explisv_item"
+    app:sub_item_layout="@layout/explisv_subitem"
+    app:indicator_size="35dp"
+    app:indicator_margin_left="10dp"
+    app:indicator_margin_right="10dp"
+    app:show_indicator="true"
+    app:show_animation="true"
+    app:start_collapsed="true"
+    app:animation_duration="150"/>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+    <ImageView
+        android:id="@+id/ivsubitem"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:translationX="5dp"
+        android:translationY="11dp"
+        />
+
+    <TextView
+        android:id="@+id/tsubitem"
+        android:layout_width="353dp"
+        android:layout_height="match_parent"
+        android:textSize="18sp"
+        android:translationX="50dp"
+        android:fontFamily="@font/fredoka_one"
+        android:gravity="center_vertical"/>
+
+</RelativeLayout>

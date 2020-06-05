@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "519866222997",
+    "firebase_url": "https://bloodlinks-ba4b3.firebaseio.com",
+    "project_id": "bloodlinks-ba4b3",
+    "storage_bucket": "bloodlinks-ba4b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519866222997:android:a2bc3fb3b12a823d5b8e9c",
+        "android_client_info": {
+          "package_name": "com.example.bloodlinks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519866222997-035i299bu1rk535r38mjcmedbgjqi59k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bloodlinks",
+            "certificate_hash": "6ba6ea26c45c5e55fb7c424469610f2133e36934"
+          }
+        },
+        {
+          "client_id": "519866222997-dgm8qa9f04mdk7lbl44c11sm2l26ca4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf_Pzhh6tuEAhyoSqTp4oQrfFfA6kL0cw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "519866222997-dgm8qa9f04mdk7lbl44c11sm2l26ca4t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

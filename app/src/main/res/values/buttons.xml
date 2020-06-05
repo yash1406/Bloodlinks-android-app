@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/o</item>
+        <item>@drawable/ab</item>
+        <item>@drawable/am</item>
+        <item>@drawable/bm</item>
+        <item>@drawable/om</item>
+        <item>@drawable/abm</item>
+    </array>
+    <array name="colors">
+        <item>@color/red_icon</item>
+        <item>@color/red_icon</item>
+        <item>@color/red_icon</item>
+        <item>@color/red_icon</item>
+        <item>@color/red_icon</item>
+        <item>@color/red_icon</item>
+        <item>@color/red_icon</item>
+        <item>@color/red_icon</item>
+    </array>
+</resources>
